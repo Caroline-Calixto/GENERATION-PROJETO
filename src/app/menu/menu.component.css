@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
+
+a{    
+    cursor: pointer;
+}
+.btn{       
+    width: 103px;
+    height: 48px;
+}
+.header2{
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16pt;
+    line-height: 47px;
+    letter-spacing: -0.02em;
+    color: white;
+}
+
+.btn-text{
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12pt;    
+    letter-spacing: -0.02em;
+    color: white;
+
+}
