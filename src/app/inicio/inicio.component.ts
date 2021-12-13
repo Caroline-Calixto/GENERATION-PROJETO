@@ -9,12 +9,13 @@ import { environment } from 'src/environments/environment.prod';
 })
 export class InicioComponent implements OnInit {
 
-  constructor(private router: Router) { }
+  constructor(
+    private router: Router
+    ) { }
 
   ngOnInit() {
 
-    if(environment.token == ''){
-      
+    if(environment.token == ''){      
       this.router.navigate(['/entrar'])
     }
   }
